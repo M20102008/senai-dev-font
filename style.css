@@ -8,6 +8,12 @@
 
 }
 
+.logo {
+    font-family: "Orbitron";
+    font-size: 20px;
+}
+
+
 h1 {
     font-size: 50px;
     font-family: "Orbitron";
@@ -22,14 +28,14 @@ h1 {
 .cabeçalho {
 
     background-color: blueviolet;
-    width: 1920px;
-    height: 80px;
+    width: 100vw;
+    height: 12vh;
 }
 
 .img-1 {
 
-    width: 1680px;
-    height: 427px;
+    width: 100vw;
+    height: 40vh;
     top: 174px;
     left: 120px;
 
@@ -46,7 +52,7 @@ h1 {
 }
 
 .info-cabeçalho li {
-    margin: 13px;
+    margin: 15px;
 }
 
 .info-cabeçalho a {
@@ -54,10 +60,111 @@ h1 {
     color: white;
     font-size: 16px;
     padding: 10px 20px;
-    display: block;
+    display: flex;
     border-radius: 5px;
 }
 
 .descrições {
     text-align: center;
+    font-size: 20px;
+}
+
+.logo2 {
+    font-family: "Orbitron";
+    font-size: 20px;}
+
+.cabeçalho2 {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 12vh;
+}
+
+.info-cabeçalho-2 {
+
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    padding: 10px 0;
+}
+
+.info-cabeçalho-2 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.info-cabeçalho-2 li {
+    margin: 15px;
+}
+
+.info-cabeçalho-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.img2{
+    
+width: 793px;
+height: 779px;
+top: 174px;
+left: 120px;
+}
+
+.logo3{
+    font-family: "Orbitron";
+    font-size: 20px;}
+
+.cabeçalho3 {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 12vh;
+}
+
+.info-cabeçalho-3 {
+
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    padding: 10px 0;
+}
+
+.info-cabeçalho-3 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.info-cabeçalho-3 li {
+    margin: 15px;
+}
+
+.info-cabeçalho-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-2{
+
+width: 793px;
+height: 779px;
+top: 174px;
+left: 120px;
+
+}
+
+.img-3{
+
+width: 793px;
+height: 779px;
+top: 174px;
+left: 1007px;
+
 }
