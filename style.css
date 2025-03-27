@@ -11,7 +11,7 @@
 .rigth {
     font-family: "Orbitron";
     font-size: 20px;
-    margin-left: 20vw;
+    margin-left: 10vw;
     padding: 10px;
 }
 
@@ -19,8 +19,11 @@
 .cabeçalho {
 
     background-color: blueviolet;
-    width: 100vw;
-    height: 12vh;
+    width: 1920px;
+    height: 71px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
 }
 
 .caixa-da-image {
@@ -34,7 +37,7 @@
 
 .caixa-da-image img {
 
-width: 80vw;
+    width: 80vw;
 
 }
 
@@ -43,14 +46,16 @@ width: 80vw;
 }
 
 .info-cabeçalho {
+
     list-style-type: none;
     display: flex;
-    justify-content: right;
+    margin-left: 70vw;
 }
 
 .info-cabeçalho li {
-    margin-right: 10vw;
+    margin-right: 20px;
     display: flex;
+    margin-right: 20px;
 }
 
 .info-cabeçalho a {
@@ -69,20 +74,18 @@ width: 80vw;
 .logo2 {
     font-family: "Orbitron";
     font-size: 20px;
+    margin-left: 10vw;
+    padding: 10px;
+
 }
 
 .cabeçalho2 {
     background-color: blueviolet;
-    width: 100vw;
-    height: 12vh;
-}
-
-.info-cabeçalho-2 {
-
-
-    list-style-type: none;
+    width: 1920px;
+    height: 71px;
     display: flex;
-    justify-content: right;
+    justify-content: baseline;
+    align-items: center;
 }
 
 .nav {
@@ -90,14 +93,17 @@ width: 80vw;
 }
 
 .info-cabeçalho-2 {
+
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    margin-left: 70vw;
 }
 
+
 .info-cabeçalho-2 li {
-    margin-right: 10vw;
-    display: flex   ;
+
+    margin-right: 20px;
+    display: flex;
 }
 
 .info-cabeçalho-2 a {
@@ -119,20 +125,17 @@ width: 80vw;
 .logo3 {
     font-family: "Orbitron";
     font-size: 20px;
+    margin-left: 10vw;
+    padding: 10px;
 }
 
 .cabeçalho3 {
     background-color: blueviolet;
-    width: 100vw;
-    height: 12vh;
-}
-
-.info-cabeçalho-3 {
-
-
-    list-style-type: none;
+    width: 1920px;
+    height: 71px;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
+    align-items: center;
 }
 
 .nav {
@@ -142,11 +145,12 @@ width: 80vw;
 .info-cabeçalho-3 {
     list-style-type: none;
     display: flex;
-    justify-content: right;
+    margin-left: 70vw;
 }
 
 .info-cabeçalho-3 li {
-    margin: 10vw;
+
+    margin-right: 20px;
     display: flex;
 }
 
@@ -175,28 +179,59 @@ width: 80vw;
     height: 779px;
     top: 174px;
     left: 1007px;
+    margin-left: 5%;
 
 }
 
-.imgs{
+.imgs {
 
     display: flex;
+    margin-top: 5%;
+    justify-content: center;
 }
 
-.textos{
+.textos {
 
-margin-left: 10vw;
-margin-top: 100px;
+    margin-left: 10vw;
+    margin-top: 100px;
 }
 
-h1{
+h1 {
 
-font-size: 64px;
+    font-size: 64px;
 
 }
 
-h2{
+h2 {
 
-font-size: 32px;
+    font-size: 32px;
+
+}
+
+.img-left {
+
+    width: 36vw;
+    height: 35vw;
+    margin-top: 5%;
+    margin-left: 10vw;
+
+
+}
+
+.text-right {
+
+    width: 35vw;
+    height: 45vw;
+    margin-top: 5%;
+    margin-right: 10vw;
+
+
+}
+
+.div-pai {
+
+    display: flex;
+    justify-content: space-between;
+
 
 }
